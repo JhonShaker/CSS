@@ -1,6 +1,6 @@
 # CSS
 
-Ejercicios Unidad CSS
+Ejercicios unidad CSS
 
 Hoja de estilos CSS se agrega en el area <head>
 <link rel="stylesheet" type="text/css" href="css_1.css">
