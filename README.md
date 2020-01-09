@@ -23,3 +23,9 @@ En archivo HTML <p class="nombre"></p>
 	background-color: green;
 	border:1px solid black;
 }
+
+Orden de prioridades en pesos CSS
+#ID / .CLASS / ELEMENTO
+ID: #id
+CLASS: .class
+EELEMENTO: <p>, <h1>, <table>, <a>, etc
