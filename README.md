@@ -12,11 +12,13 @@ p{
 }
 
 Asignacion de atributos a clase especifica "important"
+En archivo HTML <p id="nombre"></p>
 #important{
 	font-size:36px;
 }
 
 Asignacion de atributos a clases con ID "info"
+En archivo HTML <p class="nombre"></p>
 .info{
 	background-color: green;
 	border:1px solid black;
