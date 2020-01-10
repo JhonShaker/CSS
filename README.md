@@ -1,7 +1,3 @@
-# CSS
-
-Ejercicios unidad CSS
-
 Hoja de estilos CSS se agrega en el area <head>
 <link rel="stylesheet" type="text/css" href="css_1.css">
 
@@ -29,3 +25,13 @@ Orden de prioridades en pesos CSS
 ID: #id
 CLASS: .class
 EELEMENTO: <p>, <h1>, <table>, <a>, etc
+
+Etiqueta <span></span> 
+Para definir atributos a un determinado elemento, ejemplo:
+HTML:
+<h1><span>Hola mundo </span>he llegado</h1>
+CSS:
+h1 span{
+    color: blue;
+    font-size: 10px;
+}
