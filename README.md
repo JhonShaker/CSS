@@ -35,3 +35,45 @@ h1 span{
     color: blue;
     font-size: 10px;
 }
+
+Especificación de CSS ofrece 6 valores de posición, los 4 más importantes son: static (estático), relative (relativo), absolute (absoluto y fixed (fijo)).
+
+Funcion para centrar elemento:
+#center-me{
+  background: red;
+  height: 100px;
+  width: 100px; 
+  margin: auto;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+}
+
+#center-me{
+  background: red;
+  height: 100px;
+  width: 100px; 
+  margin: 0 auto;
+}
+
+Reset de CSS para Compatibilidad:
+(Basico)
+* {
+	padding: 0;
+	margin: 0;
+} 
+
+(Universal)
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+}
