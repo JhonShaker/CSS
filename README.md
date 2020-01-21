@@ -77,3 +77,69 @@ Reset de CSS para Compatibilidad:
 	padding: 0;
 	margin: 0;
 }
+
+@media only screen and (max-width: 480px){
+     /* we will set these stylings only if the device is a screen with a width of 480px or less */
+     .navbtn {
+         background-color: yellow;
+     }
+}
+
+<div class="col sm-0 med-1">
+   <h5>Did you know?</h5>
+   <p>If you could fold a piece of paper 42 times, it would be tall enough to reach the moon.</p>
+</div>
+
+@media only screen and (max-width: 480px){
+    .sm-0 {
+        /* we will not display anything with the class .sm-0 if the screen's width is less than 480px */
+        display: none;
+     }
+}
+@media only screen and (min-width: 481px){
+    .med-1 {
+        /* anything with the class .med-1 will get 25% of the available width if the screen's width is greater than 480px */
+        width: 25%;
+    }
+}
+
+.navbtn{
+    width: 200px;
+    height: 150px;
+}
+
+@media only screen and (max-width: 480px){
+    .navbtn{
+        background-color: yellow;
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 481px){
+    .navbtn{
+        background-color: blue;
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .navbtn{
+        background-color: red;
+    }
+}
+
+ESTRUCTURA BASICA:
+
+/*@media only screen and (max-width: 480px){
+
+}
+
+@media only screen and (min-width: 481px){
+
+}
+
+@media only screen and (min-width: 1024px){
+
+}
+
+*/
